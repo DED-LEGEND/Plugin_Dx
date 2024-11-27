@@ -249,7 +249,7 @@ async def help_close_cb(_, cb: CallbackQuery):
                 InlineKeyboardButton("OWNER", url="https://t.me/DX_LUCKY"),
             ],
             [
-                InlineKeyboardButton("🦋 𝐏ʙx 𝐁ᴏᴛ 𝐒ᴜᴘᴘᴏʀᴛ ❤️", url="https://t.me/YARANA_TG"),
+                InlineKeyboardButton("🦋 𝐃𝐱 𝐁ᴏᴛ 𝐒ᴜᴘᴘᴏʀᴛ ❤️", url="https://t.me/YARANA_TG"),
             ],
             [
                 InlineKeyboardButton("⏤͟͟͞͞‌ٖ🥀➣𝐃𝐱❤︎ 𝐋𝐮𝐜𝐤𝐲 ➻ >•⏤͟͟͞͞‌ٖٖٖ", url="https://t.me/DX_LUCKY"),
