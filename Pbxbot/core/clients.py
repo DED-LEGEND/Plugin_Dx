@@ -48,11 +48,11 @@ class PbxClient(Client):
                         f"Client #{i+1}: '{me.first_name}' is not in Logger Group! Check and add manually for proper functioning."
                     )
                 try:
-                    await client.join_chat("https://t.me/PBX_CHAT")
+                    await client.join_chat("https://t.me/DX_INFO")
                 except:
                     pass
                 try:
-                    await client.join_chat("https://t.me/HEROKUBIN_01")
+                    await client.join_chat("https://t.me/YARANA_TG")
                 except:
                     pass
             except Exception as e:
@@ -110,7 +110,7 @@ class PbxClient(Client):
     async def start_message(self, version: dict) -> None:
         await self.bot.send_animation(
                         Config.LOGGER_ID,
-            "https://telegra.ph/file/48a4bb97b1b6e64184223.mp4",
+            "https://envs.sh/3qk.jpg",
             f"**{Symbols.check_mark} ᴘʙx 2.0 ɪs.ɴᴏᴡ ᴏɴʟɪɴᴇ!**\n\n"
             f"**{Symbols.triangle_right}  ᴄʟɪᴇɴᴛs ➠ ** `{len(self.users)}`\n"
             f"**{Symbols.triangle_right} ᴘʟᴜɢɪɴs ➠ ** `{len(Config.CMD_MENU)}`\n"
@@ -127,13 +127,13 @@ class PbxClient(Client):
                 [
                     [
                         InlineKeyboardButton("💫 sᴛᴀʀᴛ ᴍᴇ", url=f"https://t.me/{self.bot.me.username}?start=start"),
-                        InlineKeyboardButton("💖 ʀᴇᴘᴏ", url="https://github.com/Badhacker98/PBX_2.0/fork"),
+                        InlineKeyboardButton("💖 ʀᴇᴘᴏ", url="https://github.com/DED-LEGEND/PDxPlugin"),
                     ],
                     [
-                        InlineKeyboardButton("⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸", url="https://t.me/ll_BAD_MUNDA_ll"),
+                        InlineKeyboardButton("꯭꯭⛦⃕͜🇩𝐗🝛꯭••➤‌‌‏🇱𝐔𝐂𝐊𝐘❥︎⃟⛦⃕͜🝛꯭••➤‌‌‏‌🌸", url="https://t.me/DX_LUCKY"),
                     ],
                     [
-                    InlineKeyboardButton("🦋 𝐏ʙx 𝐁ᴏᴛ 𝐒ᴜᴘᴘᴏʀᴛ ❤️", url="https://t.me/ll_THE_BAD_BOT_ll"),
+                    InlineKeyboardButton("🦋 𝐋𝐮𝐜𝐤𝐲 𝐁ᴏᴛ 𝐒ᴜᴘᴘᴏʀᴛ ❤️", url="https://t.me/YARANA_TG"),
                     ],
                 ]
             ),
